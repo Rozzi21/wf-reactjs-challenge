@@ -1,0 +1,44 @@
+.card-contact {
+    width:300px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #072121;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+  }
+
+  
+  
+  .card-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  };
+  
+  .card-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .card-phone,
+  .card-email {
+    font-size: 14px;
+    color: #666;
+  }
